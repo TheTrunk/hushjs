@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28D97A4C-9070-4599-A821-B130E8897455}"
+	ProjectSection(SolutionItems) = preProject
+		.babelrc = .babelrc
+		.flowconfig = .flowconfig
+		.gitignore = .gitignore
+		.nvmrc = .nvmrc
+		.yarnclean = .yarnclean
+		LICENSE = LICENSE
+		package.json = package.json
+		README.md = README.md
+		yarn.lock = yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46A2D409-4D71-4FB3-A4F3-84AAC4D26667}"
+	ProjectSection(SolutionItems) = preProject
+		src\address.js = src\address.js
+		src\bufferutils.js = src\bufferutils.js
+		src\config.js = src\config.js
+		src\constants.js = src\constants.js
+		src\crypto.js = src\crypto.js
+		src\index.js = src\index.js
+		src\opcodes.js = src\opcodes.js
+		src\prf.js = src\prf.js
+		src\sha256compress.js = src\sha256compress.js
+		src\transaction.js = src\transaction.js
+		src\types.js = src\types.js
+		src\utils.js = src\utils.js
+		src\zaddress.js = src\zaddress.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{0436A82E-063F-4156-B6F6-0F7B50E9756B}"
+	ProjectSection(SolutionItems) = preProject
+		lib\address.js = lib\address.js
+		lib\bufferutils.js = lib\bufferutils.js
+		lib\config.js = lib\config.js
+		lib\constants.js = lib\constants.js
+		lib\crypto.js = lib\crypto.js
+		lib\index.js = lib\index.js
+		lib\opcodes.js = lib\opcodes.js
+		lib\prf.js = lib\prf.js
+		lib\sha256compress.js = lib\sha256compress.js
+		lib\transaction.js = lib\transaction.js
+		lib\types.js = lib\types.js
+		lib\utils.js = lib\utils.js
+		lib\zaddress.js = lib\zaddress.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46A2D409-4D71-4FB3-A4F3-84AAC4D26667} = {28D97A4C-9070-4599-A821-B130E8897455}
+		{0436A82E-063F-4156-B6F6-0F7B50E9756B} = {28D97A4C-9070-4599-A821-B130E8897455}
+	EndGlobalSection
+EndGlobal
