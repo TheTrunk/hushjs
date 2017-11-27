@@ -3,7 +3,7 @@ Dead simple and easy to use JavaScript based Hush library. Inspired by [pybitcoi
 
 # Getting started (Dev)
 ```bash
-git clone https://github.com/MyHush/hushjs.git
+git clone https://github.com/TheTrunk/hushjs.git
 cd hushjs
 yarn install
 yarn build

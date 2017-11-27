@@ -1,6 +1,6 @@
 {
   "name": "hushjs",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Dead easy to use Hush JavaScript based library",
   "main": "./lib/index.js",
   "repository": "https://github.com/TheTrunk/hushjs.git",
